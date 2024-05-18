@@ -1,15 +1,12 @@
-from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 import requests
 from genera_base import Pais
-
-import json
+from genera_base import engine
 
 # se genera en enlace al gestor de base de
 # datos
 # para el ejemplo se usa la base de datos
 # sqlite
-engine = create_engine('sqlite:///basepersonas.db')
 
 url = "https://pkgstore.datahub.io/core/country-codes/country-codes_json/data/616b1fb83cbfd4eb6d9e7d52924bb00a/country-codes_json.json"
 response = requests.get(url)

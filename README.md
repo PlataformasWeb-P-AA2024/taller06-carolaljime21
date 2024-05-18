@@ -1,4 +1,5 @@
 # taller06
+Carolina Alvarado, Kevin Barrazuetaç, Stefany Pedrozq
 
 ### Problemática
 
